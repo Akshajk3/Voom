@@ -1,16 +1,17 @@
 {
   "configurations": [
     {
-      "name": "macos-clang-arm64",
+      "name": "Win32-MinGW",
       "includePath": [
         "${workspaceFolder}/**"
       ],
-      "compilerPath": "/usr/bin/clang",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "macos-clang-arm64",
+      "defines": [],
+      "compilerPath": "C:/MinGW/bin/g++.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-x64",
       "compilerArgs": [
-        ""
+        "-pthread"
       ]
     }
   ],
